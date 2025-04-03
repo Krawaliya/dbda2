@@ -1,12 +1,5 @@
-oREATE PROCEDURE check_num(IN num1 INT, IN num2 INT)
-BEGIN
- 
- DECLARE num3 INT;
-    SET num3 = num1 * num2;
+uodated text 1 file 
+nd f kjasndknasdfl;
+ahbfkajsbkjbkjfdn
+aldjsfnlkjafnlksfdnlk
 
-    IF num3 >= 100 THEN
-        SELECT CONCAT(num3, ' is greater than or equal to 100') AS Result;
-    ELSE
-        SELECT CONCAT(num3, ' is less than 100') AS Result;
-    END IF;
-END //
